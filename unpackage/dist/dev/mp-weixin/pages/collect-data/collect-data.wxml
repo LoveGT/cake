@@ -1,0 +1,1 @@
+<view style="padding-top:600rpx;"><u-button vue-id="630464a0-1" text="录入数据" data-event-opts="{{[['^click',[['handleClick']]]]}}" bind:click="__e" bind:__l="__l"></u-button></view>

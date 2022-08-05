@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u-swiper": "/node-modules/uview-ui/components/u-swiper/u-swiper",
+    "u-scroll-list": "/node-modules/uview-ui/components/u-scroll-list/u-scroll-list",
+    "u-back-top": "/node-modules/uview-ui/components/u-back-top/u-back-top",
+    "nav-custome": "/components/nav-custom",
+    "home-title": "/components/home-title",
+    "goods-item": "/components/goods-item"
+  }
+}

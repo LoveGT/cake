@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/home/home",
+    "pages/cake/cake",
+    "pages/bread/bread",
+    "pages/food/food",
+    "pages/profile/profile",
+    "pages/detail/detail",
+    "pages/home/banner-ad/banner-ad",
+    "pages/collect-data/collect-data"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#007AFF",
+    "backgroundColor": "#F8F8F8",
+    "navigationStyle": "custom"
+  },
+  "tabBar": {
+    "color": "#007AFF",
+    "selectedColor": "#00ff7f",
+    "list": [
+      {
+        "text": "蛋糕",
+        "pagePath": "pages/cake/cake"
+      },
+      {
+        "text": "轻食",
+        "pagePath": "pages/food/food"
+      },
+      {
+        "text": "面包",
+        "pagePath": "pages/bread/bread"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

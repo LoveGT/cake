@@ -1,0 +1,48 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "id": 0,
+          "name": "pages/home/home",
+          "pathName": "pages/home/home",
+          "query": ""
+        },
+        {
+          "name": "蛋糕页",
+          "pathName": "pages/cake/cake",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "我的",
+          "pathName": "pages/profile/profile",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "轻食",
+          "pathName": "pages/food/food",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "录入数据页面",
+          "pathName": "pages/collect-data/collect-data",
+          "query": "",
+          "scene": null
+        }
+      ]
+    }
+  }
+}
