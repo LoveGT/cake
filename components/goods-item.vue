@@ -1,15 +1,16 @@
 <template>
 	<view class="cake-item">
 		<view class="poster">
+			<image :src="goodsItem.img" mode="widthFix"></image>
 		</view>
 		<view class="info-cont">
 			<view class="info flex justify-between align-center">
 				<view class="">
 					<view class="fs-28">
-						草莓蛋糕
+						{{goodsItem.name}}
 					</view>
 					<view class="fs-16">
-						CaoMei DanGao
+						{{goodsItem.french}}
 					</view>
 				</view>
 				<view class="cart-btn">
@@ -17,7 +18,7 @@
 				</view>
 			</view>
 			<view class="fs-18">
-				<text class="fs-14">￥</text> 218
+				<text class="fs-14">￥</text> {{goodsItem.price}}
 			</view>
 		</view>
 	</view>
@@ -26,11 +27,15 @@
 <script>
 	export default {
 		name: "goods-item",
+		props: ['goodsItem'],
 		data() {
 			return {
 
 			};
 		},
+		// mounted() {
+		// 	console.log(this.goodsItem)
+		// },
 		methods: {
 		}
 	}

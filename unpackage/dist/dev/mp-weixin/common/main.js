@@ -8,7 +8,7 @@
 
 "use strict";
 /* WEBPACK VAR INJECTION */(function(createApp) {__webpack_require__(/*! uni-pages */ 5);var _App = _interopRequireDefault(__webpack_require__(/*! ./App */ 6));
-
+var _index = _interopRequireDefault(__webpack_require__(/*! store/index.js */ 428));
 
 var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ 3));
 
@@ -24,11 +24,19 @@ var request = _interopRequireWildcard(__webpack_require__(/*! utils/request.js *
 // Vue.prototype.$http = $http
 // Vue.prototype.$post = $post
 // Vue.prototype.$get = $get
-for (var key in request) {_vue.default.prototype[key] = request[key];}
+for (var key in request) {_vue.default.prototype[key] = request[key];}var NavCustom = function NavCustom() {__webpack_require__.e(/*! require.ensure | components/nav-custom */ "components/nav-custom").then((function () {return resolve(__webpack_require__(/*! components/nav-custom.vue */ 212));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};
+_vue.default.component('nav-custom', NavCustom);var SideBar = function SideBar() {__webpack_require__.e(/*! require.ensure | components/side-bar */ "components/side-bar").then((function () {return resolve(__webpack_require__(/*! components/side-bar.vue */ 219));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};
+
+
+_vue.default.component('side-bar', SideBar);var TabbarCustom = function TabbarCustom() {__webpack_require__.e(/*! require.ensure | components/tabbar-custom */ "components/tabbar-custom").then((function () {return resolve(__webpack_require__(/*! components/tabbar-custom.vue */ 226));}).bind(null, __webpack_require__)).catch(__webpack_require__.oe);};
+
+
+_vue.default.component('tabbar-custom', TabbarCustom);
 _vue.default.config.productionTip = false;
 _App.default.mpType = 'app';
-var app = new _vue.default(_objectSpread({},
-_App.default));
+var app = new _vue.default(_objectSpread(_objectSpread({},
+_App.default), {}, {
+  store: _index.default }));
 
 createApp(app).$mount();
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["createApp"]))

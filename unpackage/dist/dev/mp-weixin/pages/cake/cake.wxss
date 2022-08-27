@@ -4432,6 +4432,9 @@ scroll-view.cu-steps .cu-item {
 /* 垂直间距 */
 /* 透明度 */
 /* 文章场景相关 */
+page {
+  padding: 110rpx 0 120rpx 0;
+}
 .cake-box {
   display: flex;
   flex-wrap: wrap;

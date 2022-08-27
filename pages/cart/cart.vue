@@ -1,16 +1,18 @@
 <template>
 	<view>
-		test zhujian
+		cart...
 	</view>
 </template>
 
 <script>
 	export default {
-		name:"testCpd",
 		data() {
 			return {
 				
-			};
+			}
+		},
+		methods: {
+			
 		}
 	}
 </script>

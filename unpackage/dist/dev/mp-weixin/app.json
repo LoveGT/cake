@@ -8,7 +8,8 @@
     "pages/profile/profile",
     "pages/detail/detail",
     "pages/home/banner-ad/banner-ad",
-    "pages/collect-data/collect-data"
+    "pages/collect-data/collect-data",
+    "pages/cart/cart"
   ],
   "subPackages": [],
   "window": {
@@ -18,23 +19,9 @@
     "backgroundColor": "#F8F8F8",
     "navigationStyle": "custom"
   },
-  "tabBar": {
-    "color": "#007AFF",
-    "selectedColor": "#00ff7f",
-    "list": [
-      {
-        "text": "蛋糕",
-        "pagePath": "pages/cake/cake"
-      },
-      {
-        "text": "轻食",
-        "pagePath": "pages/food/food"
-      },
-      {
-        "text": "面包",
-        "pagePath": "pages/bread/bread"
-      }
-    ]
-  },
-  "usingComponents": {}
+  "usingComponents": {
+    "nav-custom": "/components/nav-custom",
+    "side-bar": "/components/side-bar",
+    "tabbar-custom": "/components/tabbar-custom"
+  }
 }

@@ -1,6 +1,5 @@
 <template>
 	<view>
-		<TestCpd></TestCpd>
 		<view class="item">
 			<u-tag text="标签"></u-tag>
 		</view>
@@ -11,11 +10,7 @@
 </template>
 
 <script>
-	import TestCpd from "../../components/testCpd.vue"
 	export default {
-		components: {
-			TestCpd
-		},
 		data() {
 			return {
 

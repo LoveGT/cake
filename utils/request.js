@@ -1,12 +1,12 @@
-const baseUrl = 'https://h04prfal.lc-cn-n1-shared.com'
+const baseUrl = 'https://api2105.h5project.cn'
 export function $http(options = {}) {
 	return new Promise((reslove, reject) => {
 		uni.request({
 			url: baseUrl + options.url,
 			method: options.method || 'GET',
 			header: {
-				'X-LC-Id': 'H04prfALuRP0mKGU1Usyjup6-gzGzoHsz',
-				'X-LC-Key': 'PNIPWOy8nIeNdq7deKOvPSEi',
+				'X-LC-Id': '7yoqQxyLBNN9MW5rsgTGXbHL-gzGzoHsz',
+				'X-LC-Key': 'hA8yGYuHjnXWRui1rzTe0C3P',
 				'Content-Type': 'application/json'
 			},
 			data: options.data || {},

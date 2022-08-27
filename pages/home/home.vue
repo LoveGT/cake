@@ -14,7 +14,7 @@
 			<home-title title="法系经典" en-title="French Classic" en-tit="French"></home-title>
 			<image src="../../static/img/french.jpg" mode="widthFix" class="frence-poster"></image>
 			<view class="flex flex-wrap padding-sm justify-between">
-				<goods-item v-for="(item,index) in 10"></goods-item>
+				<goods-item v-for="(item,index) in 10" :key="index"></goods-item>
 			</view>
 		</view>
 		<u-back-top :scroll-top="scrollTop" top="600" icon="arrow-up" text="返回"></u-back-top>

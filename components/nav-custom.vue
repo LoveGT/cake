@@ -4,7 +4,7 @@
 			<text class="cuIcon-locationfill text-gray"></text> 重庆
 		</view>
 		<view class="content text-bold">
-			鲜亮的高饱和色彩
+			MCAKE
 		</view>
 		<view class="action text-grey">
 			<text class="cuIcon-search"></text>
@@ -25,6 +25,15 @@
 	}
 </script>
 
-<style>
-
+<style lang="scss">
+.cu-bar {
+	width: 100vw;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 3;
+	.content {
+		color: #000;
+	}
+}
 </style>
